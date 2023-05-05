@@ -80,7 +80,7 @@ const Search = ({ show, setShow }) => {
               return <SearchUser data={user} />;
             })
           ) : (
-            <h6>No results found.</h6>
+            <h6>No results found</h6>
           )}
         </Offcanvas.Body>
       </Offcanvas>
