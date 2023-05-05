@@ -110,6 +110,11 @@ const cardData = [
     likes: 400,
     comment: 100,
   },
+  {
+    image: Img2,
+    likes: 400,
+    comment: 100,
+  },
 ];
 
 const breakpointColumnsObj = {
@@ -129,7 +134,7 @@ const Explore = () => {
         >
           {cardData.map((card, index) => (
             <Card key={index} className="mb-4">
-              <Card.Img variant="top" src={card.image} />
+              <Card.Img variant="top" src={card.image}/>
               <div className="overlay d-flex justify-content-center align-item-center">
                 <div className="div mx-1">
                   <p>{card.likes}</p>
