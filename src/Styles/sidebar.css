@@ -1,0 +1,41 @@
+.sidebar .logoHead {
+  overflow: hidden;
+  margin-top: 13px;
+  margin-bottom: 18px;
+}
+.sidebar{
+  overflow: hidden;
+}
+.sidebar .logoHead .miniLogo{
+  width: 28px !important;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.sidebar .logoHead .lgLogo {
+  width: 104px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.sidebar .list-group .list-group-item {
+  border: none !important;
+  padding: 12px 12px !important;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.sidebar .list-group .list-group-item:hover{
+  background: #f2f2f2;
+}
+.sidebar .list-group .list-group-item span{
+  display: block;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.sidebar .list-group img{
+  width: 28px !important;
+}
+.sidebar .list-group  a{
+  text-decoration: none !important;
+}

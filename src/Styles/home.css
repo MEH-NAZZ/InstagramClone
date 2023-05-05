@@ -1,0 +1,182 @@
+.swiper {
+  width: 100%;
+}
+.home {
+  display: flex;
+  align-items: top;
+}
+.home .part1 {
+  flex: 1;
+  width: 0%;
+}
+.home .part2 {
+  width: 280px;
+  margin-left: 65px;
+  height: 100dvh;
+  display: flex !important;
+  flex-direction: column;
+}
+.home .swiper-button-next:after {
+  content: unset !important;
+}
+.home .swiper-button-prev:after {
+  content: unset !important;
+}
+.swiper-button-next, .swiper-button-prev{
+  top: 40% !important;
+}
+.home .swiper-button-disabled {
+  display: none !important;
+}
+.home .swiper-button {
+  display: block !important;
+
+}
+.home .postsHead {
+  padding: 0 85px;
+}
+
+.home .part2 .suggestionPart .profileHead span{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.home .part2 .suggestionPart .profileHead span img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home .part2 .suggestionPart .profileDetails{
+  flex: 1 !important;
+}
+.home .part2 .suggestionPart .profileDetails h6{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .part2 .suggestionPart .profileDetails p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  word-wrap: break-word;
+  margin: 0;
+  color: gray;
+}
+.home .part2 .suggestionPart .profileHead button{
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0 !important;
+}
+.home .part2 .suggestionPart .profileHead button a{
+  text-decoration: none;
+  color: rgb(0, 149, 246);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.home .part2 .suggestionHead .head h4{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(115, 115, 115);
+}
+.home .part2 .suggestionPart .suggestionHead .head a{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.home .part2 .suggestionPart .suggestion span{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.home .part2 .suggestionPart .suggestion span img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home .part2 .suggestionPart .suggestionDetails{
+  flex: 1 !important;
+}
+.home .part2 .suggestionPart .suggestionDetails h6{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .part2 .suggestionPart .suggestionDetails p{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  word-wrap: break-word;
+  margin: 0;
+  color: gray;
+}
+.home .part2 .suggestionPart .suggestion button{
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0 !important;
+}
+.home .part2 .suggestionPart .suggestion button a{
+  text-decoration: none;
+  color: rgb(0, 149, 246);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.home .part2 .suggestionPart .list-group .list-group-item{
+  border: 0 !important;
+  padding: 10px 0 !important;
+  
+}
+
+/* footer css */
+.footer .list-group{
+flex-wrap: wrap !important;
+width: 320px !important;
+padding: 20px 0px;
+
+}
+.footer .list-group .list-group-item{
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  margin-right: 5px !important;
+  
+}
+.footer .list-group .list-group-item a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color:#cecece;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  
+  
+}
+.footer p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #cecece;
+  padding: 0 !important;
+  margin: 0 !important;
+}

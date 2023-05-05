@@ -1,0 +1,161 @@
+.postCard {
+  border-radius: unset;
+  border: unset;
+  margin-top: 20px;
+  border-bottom: 2px solid #f2f2f2 !important;
+}
+.postCard .cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.userDetails {
+  display: flex;
+  align-items: center;
+}
+.postCard .cardHead .userDetails > span {
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  background: linear-gradient(50deg, #ffcd30, #d404c5);
+  position: relative;
+  padding: 2px;
+  margin-right: 10px;
+}
+.postCard .cardHead .userDetails span img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.postCard .cardHead .userDetails h4 {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.postCard .cardHead .userDetails h4 span {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 8px;
+}
+.postCard .cardHead .userDetails h6 {
+  font-size: 10px;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.postCard .menuIcon img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.postCard .postHead {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.postCard .postHead img {
+  width: 100%;
+  object-fit: cover;
+}
+.postCard .postIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.postCard .postIcons .leftIcons {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.postCard .postIcons img {
+  width: 28px;
+}
+.postCard .saveIcon img {
+  width: 26px !important;
+  height: 30px;
+}
+.postCard .likes {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  word-wrap: break-word;
+  white-space: pre-line;
+  cursor: pointer;
+}
+.postCard .postDescription p {
+  font-weight: 400;
+  margin: 0;
+  font-size: 12px;
+  color: #000000;
+}
+.postCard .postDescription p span {
+  font-size: 14px;
+  word-wrap: break-word;
+  font-weight: 500;
+  line-height: 14px;
+  margin: 0;
+  color: rgb(0, 0, 0) !important;
+}
+.postCard .comments p {
+  font-size: 14px;
+  /* line-height: 18px !important; */
+  font-weight: 400;
+  margin-bottom: 0;
+  color: rgb(115, 115, 115);
+  margin-top: 5px;
+}
+
+.postCard .comments .inputHead input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+/* modal css */
+.modal {
+  width: 374px !important;
+  left: 563px !important;
+  top: 126px !important;
+}
+.modal-body {
+  padding: 0 !important;
+}
+.modal-body .list-group-item {
+  display: flex !important;
+  text-align: center !important;
+  justify-content: center !important;
+  padding: 13px !important;
+}
+.modal-body .list-group-item a {
+  text-decoration: none;
+  display: inline-block !important;
+  color: #000000 !important;
+  text-align: center !important;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.modal-body .btn {
+  background: none !important;
+  outline: none !important;
+  color: #000000 !important;
+  border: none !important;
+  padding: 13px !important;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300 !important;
+}

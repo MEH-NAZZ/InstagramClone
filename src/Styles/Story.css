@@ -1,0 +1,33 @@
+.storyCard {
+  border: none !important;
+  padding: 0 !important;
+  text-align: center;
+  background: unset;
+  cursor: pointer;
+}
+.storyCard .imgHead {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  background: linear-gradient(50deg, #ffcd30, #d404c5);
+  position: relative;
+  padding: 2px;
+}
+.storyCard .imgHead img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.storyCard h6 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 66px;
+  overflow: hidden;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 4px;
+  color: #000000;
+}

@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+}
+.sideBar {
+  width: 243px;
+  height: 100dvh;
+  padding: 12px;
+  border-right: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  z-index: 1050;
+  background: white;
+  transition: all 0.3s;
+}
+.sideBar.active{
+  width: 76px !important;
+  transition: all 0.3s;
+}
+.mainContent {
+  flex: 1;
+  width: 80%;
+  margin-left: 243px;
+  padding: 50px 130px 0;
+}
